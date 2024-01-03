@@ -1,0 +1,20 @@
+{
+  "files": {
+    "input.txt": [
+      {
+        "id": "fb9b2ac6-445b-4bb8-90ac-b84b1fc013a5",
+        "line": 1,
+        "version": 7,
+        "index": 0
+      }
+    ],
+    "main.py": [
+      {
+        "id": "f09f316e-669a-42cd-a574-7c5dcbb8df4f",
+        "line": 9,
+        "version": 837,
+        "index": 146
+      }
+    ]
+  }
+}
