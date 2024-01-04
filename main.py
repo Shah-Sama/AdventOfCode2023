@@ -1,21 +1,21 @@
 import sys
 
-# ## Part 1
-# x = 0
-# with open('input.txt', 'r') as file:
-#     for line in file:
-#         string = line.strip()
-#         frst = 0
-#         scnd = 0
-#         for letter in string:
-#           if letter.isdigit():
-#             if frst == 0:
-#               frst = int(letter)
-#             scnd = int(letter)
-#         if frst != 0 and scnd != 0:
-#           concatenated = str(frst) + str(scnd)
-#           x += int(concatenated)
-# print(x)
+## Part 1
+x = 0
+with open('input.txt', 'r') as file:
+    for line in file:
+        string = line.strip()
+        frst = 0
+        scnd = 0
+        for letter in string:
+          if letter.isdigit():
+            if frst == 0:
+              frst = int(letter)
+            scnd = int(letter)
+        if frst != 0 and scnd != 0:
+          concatenated = str(frst) + str(scnd)
+          x += int(concatenated)
+print(x)
 
 def check_digit(string):
   if string[0].isdigit():
